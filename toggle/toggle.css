@@ -1,0 +1,38 @@
+.body {
+  border: red, 1px, soldi;
+  height: 50rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.morning {
+  background-color: bisque;
+}
+
+.night {
+  background-color: blue;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+
+  border: 0.4rem black solid;
+  border-radius: 0.2rem;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button-night {
+  padding: 0.5rem 1rem;
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+
+  border: 0.4rem yellow solid;
+  border-radius: 0.2rem;
+  background-color: rgba(0, 0, 0, 0);
+}
