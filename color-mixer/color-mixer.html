@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="color-mixer.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <div class="mixer">
+                <label for="red">r</label>
+                <input type="range" step="1" min="0" max="255" value="255" id="red">
+            </div>
+            <div class="mixer">
+                <label for="green">g</label>
+                <input type="range" step="1" min="0" max="255" value="255" id="green">
+            </div>
+            <div class="mixer">
+                <label for="blue">b</label>
+                <input type="range" step="1" min="0" max="255" value="255" id="blue">
+            </div>
+            <div id="rgb">
+                <p>#</p>
+            </div>
+            <div>
+                <button id="random-color">Random Color</button>
+            </div>
+        </div>
+    </header>
+
+    <script src="color-mixer.js"></script>
+</body>
+
+</html>

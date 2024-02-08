@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+  font-size: 2rem;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1.5rem 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mixer {
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+#rgb {
+  margin-left: auto;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input#red {
+  accent-color: red;
+}
+
+input#green {
+  accent-color: green;
+}
+
+input#blue {
+  accent-color: blue;
+}
+
+#random-color {
+  padding: 0.3rem 0.2rem;
+  border-radius: 0.2rem;
+  margin: 1rem;
+  background-color: aliceblue;
+}
